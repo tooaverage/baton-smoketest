@@ -18,11 +18,16 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
         color: #1a1a1a;
       }
-      .heart {
+      .heart-row {
         position: fixed;
         top: 24px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 0 16px;
         font-size: 40px;
         color: #e11d48;
         line-height: 1;
@@ -86,7 +91,7 @@
     </style>
   </head>
   <body>
-    <div class="heart" aria-hidden="true">♥</div>
+    <div class="heart-row" aria-hidden="true">♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥</div>
     <main>
       <h1>HEY <span style="color: #8b5cf6">PAUL</span></h1>
       <h2>Baton smoketest</h2>
@@ -99,6 +104,6 @@
       <button type="button">Share with PM</button>
       <a class="btn btn-secondary" href="finch.html">Visit Finch's Home →</a>
     </main>
-    <div class="heart heart-bottom" aria-hidden="true">♥</div>
+    <div class="heart-row heart-bottom" aria-hidden="true">♥</div>
   </body>
 </html>
