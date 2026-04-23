@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finch's Home</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(circle at 20% 10%, #2a1f4a 0%, #0f0820 60%, #05020f 100%);
+        font-family: "Georgia", "Times New Roman", serif;
+        color: #f4e9d8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+      }
+      main {
+        max-width: 640px;
+        padding: 64px 40px;
+        text-align: center;
+        position: relative;
+      }
+      .perch {
+        font-size: 96px;
+        line-height: 1;
+        margin-bottom: 24px;
+        filter: drop-shadow(0 4px 16px rgba(255, 183, 77, 0.4));
+      }
+      h1 {
+        font-size: 72px;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 0.02em;
+        margin: 0 0 12px;
+        color: #ffb74d;
+        text-shadow: 0 2px 24px rgba(255, 183, 77, 0.3);
+      }
+      .subtitle {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        color: #b39ddb;
+        margin: 0 0 40px;
+      }
+      p {
+        font-size: 19px;
+        line-height: 1.8;
+        color: #e8dcc8;
+        margin: 0 0 24px;
+      }
+      .flock {
+        font-size: 24px;
+        letter-spacing: 0.3em;
+        margin-top: 48px;
+        opacity: 0.7;
+      }
+      em {
+        color: #ffd180;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="perch" aria-hidden="true">🐦</div>
+      <h1>Finch's Home</h1>
+      <p class="subtitle">a small place for small birds</p>
+      <p>
+        Finches are tiny, seed-eating songbirds with stout conical bills and
+        cheerful, chattering calls. They travel in loose flocks, flashing bright
+        patches of <em>red, yellow, and rose</em> as they bound from branch to
+        branch in that distinctive dipping flight.
+      </p>
+      <p>
+        From the scarlet house finch at the feeder to the goldfinch in the
+        thistle, to Darwin's own finches on the Galápagos — each beak shaped by
+        the seed it cracks.
+      </p>
+      <div class="flock" aria-hidden="true">🪺 · 🌾 · 🪶</div>
+    </main>
+  </body>
+</html>
